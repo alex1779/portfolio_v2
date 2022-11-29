@@ -22,7 +22,7 @@ ul {
 
 #container {
   width: 100%;
-  aspect-ratio: 375 / 696;
+  aspect-ratio: 375 / 5410;
   position: absolute;
   display: flex;
   flex-direction: column;
