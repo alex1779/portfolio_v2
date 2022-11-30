@@ -205,10 +205,6 @@ ul {
 }
 
 #social-media-icons-li-2 {
-  position: absolute;
-  left: 2%;
-  top: -2%;
-  width: 30%;
   aspect-ratio: 170 / 20;
   display: flex;
   align-items: center;
@@ -729,36 +725,21 @@ ul {
 #about-myself-top-primary-text {
   width: 87.2%;
   aspect-ratio: 327 / 150;
-  left: -0.5%;
-  top: -0.5%;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  margin: 0;
 }
 
 .about-myself-top-primary-text-1 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
   font-weight: 700;
   font-size: 10.7vw;
   line-height: 14vw;
   color: #172b4d;
-  align-items: center;
+  margin: 0;
 }
 
 #about-myself-top-primary-text-2 {
   width: 100%;
   aspect-ratio: 327 / 144;
-  left: 0%;
-  top: -4.5%;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  margin-top: -5vw;
 }
 
 .about-myself-top-primary-text-2 {
@@ -775,33 +756,20 @@ ul {
 #about-myself-top-social-media {
   width: 36%;
   aspect-ratio: 117 / 24;
-  left: 0%;
-  top: -1.2%;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  margin-top: 4vw;
 }
 
 #about-myself-top-social-media-icons {
-  position: absolute;
-  width: 110%;
+  width: 47vw;
   aspect-ratio: 200 / 40;
-  left: -2%;
-  top: 75%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  margin-top: 6vw;
+  margin-left: 3vw;
 }
 
 #about-myself-top-block-apart-action {
   width: 49.5%;
   aspect-ratio: 162 / 48;
-  top: 88.5%;
-  left: 0%;
-  position: absolute;
+  margin-top: 2vw;
   border-radius: 2vw;
 }
 
