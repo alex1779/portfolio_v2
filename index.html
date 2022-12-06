@@ -5,12 +5,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,700,900' rel='stylesheet'>
   </head>
-  <body>
-
+  <body onload="initialExec();">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
     <div id="container">
 
-      <header id="app-bar-compact">
+      <div id="app-bar-compact">
         <div id="toolbar">
+
           <div id="div-button">
             <nav id="menu">
               <button id="icon-button-button" type="button" onclick="hamburgClick()">
@@ -22,19 +24,24 @@
               </button>
             </nav>
           </div>
+
           <div id="div-logo"><a id="div-logo-a" href="#">My Logo</a></div>
+
           <nav id="menu-2">
             <button id="menu-2-button" type="button">Portfolio</button>
             <button id="menu-2-button" type="button">About</button>
             <button id="menu-2-button" type="button">Contact</button>
           </nav>
-        </div>
-      </header>
 
-      <section id="headline">
+        </div>
+      </div>
+
+      <div id="header-shapes-mobile"></div>
+      <div id="headline">
         <div id="div-primary-text-1"><h1 class="primary-text-1"></h1></div>
         <div id="div-primary-text-2"><p class="primary-text-2">ľm  a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p></div>
         <div id="div-social-media"><p class="social-media-p">LET'S CONNECT</p></div>
+
         <ul id="social-media-icons-li">
           <li id="social-media-icons-item-1">
             <a href="https://twitter.com/AlejandroMaggi7"><img class="social" src="images/twitter.svg" alt="twitter" width="auto" height="auto"></a>
@@ -52,7 +59,7 @@
             <a href="#"><img class="social" src="images/hand.svg" alt="hand" width="auto" height="auto"></a>
           </li>
         </ul>
-      </section>
+      </div>
 
       <!-- Works section -->
       <section id="works-section">
@@ -202,6 +209,7 @@
               </li>
               <li id="social-media-icons-item-4">
                 <a href="https://twitter.com/AlejandroMaggi7"><img class="social" src="images/twitter.svg" alt="twitter" width="auto" height="auto"></a>
+
               </li>
               <li id="social-media-icons-item-5">
                 <a href="#"><img class="social" src="images/m.svg" alt="m" width="auto" height="auto"></a>
@@ -212,11 +220,14 @@
         </div>
 
         <div id="about-myself-skill-list">
+
           <div id="about-myself-skill-list-frame-12">
+
             <div id="about-myself-skill-list-frame-7">
               <a id="about-myself-skill-list-skills2" >Languages</a>
               <button id="about-myself-skill-list-button2" type="button"><img class="social" src="images/arrow_down.svg" alt="arrow" width="auto" height="auto"></button>
             </div>
+
             <ul id="about-myself-skill-list-language-list">
               <li id="about-myself-skill-list-frame-92" class="about-myself-skill-list">
                 <div id="about-myself-skill-list-icon-1"></div>
@@ -231,7 +242,9 @@
                 <a id="about-myself-skill-list-text-3" class="about-myself-skill-list-text">CSS</a>
               </li>
             </ul>
+
           </div>
+
           <div id="about-myself-skill-list-frame-8">
             <div id="about-myself-skill-list-frame-separator"></div>
             <button id="about-myself-skill-list-button" type="button">
@@ -240,6 +253,7 @@
             </button>
             <a id="about-myself-skill-list-skills">Frameworks</a>
           </div>
+
           <div id="about-myself-skill-list-frame-9">
             <div id="about-myself-skill-list-frame-separator"></div>
             <button id="about-myself-skill-list-button" type="button">
@@ -249,26 +263,26 @@
             </button>
             <a id="about-myself-skill-list-skills">Skills</a>
           </div>
+
         </div>
+
       </section>
 
 
-
-    <!-- contact form -->
-    <section id="contact-form-base"></section>
-    <section id="contact-form-shapes"></section>
-    <section id="contact-form-data">
-      <h1 id="contact-form-data-h1">Contact me</h1>
-      <h6 id="contact-form-data-h6">If you have an application you<br> are interested in developing, a<br> feature that you need built or a<br> project that needs coding. I’d<br> love to help with it </h6>
-      <form id="survey-form" action="https://formspree.io/f/mpznrolg" method="post">
-        <input id="survey-form-name-input" name="Name" type="text" required="true" required placeholder="name" maxlength="30">
-        <input id="survey-form-email-input" name="email" type="email" required="true" required placeholder="email">
-        <textarea id="survey-form-message-input" name="Message" type="text" required="true" required placeholder="Write your message here" maxlength="500"></textarea>
-        <label id="message-alert"></label>
-        <button id="contact-form-data-button" type="submit">Get It Touch</button>
-      </form>
-      <div id="shape"></div>
-    </section>
+      <!-- contact form -->
+      <section id="contact-form-base"></section>
+      <section id="contact-form-shapes"></section>
+      <section id="contact-form-data">
+        <h2 id="contact-form-data-h1">Contact me</h2>
+        <p id="contact-form-data-h6">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+        <form id="survey-form" action="https://formspree.io/f/mpznrolg" method="post">
+          <input id="survey-form-name-input" name="Name" type="text" required="true" required placeholder="name" maxlength="30">
+          <input id="survey-form-email-input" name="email" type="email" required="true" required placeholder="email">
+          <textarea id="survey-form-message-input" name="Message" type="text" required="true" required placeholder="Write your message here" maxlength="500"></textarea>
+          <button id="contact-form-data-button" type="submit">Get It Touch</button>
+        </form>
+        <div id="shape"></div>
+      </section>
 
     <!-- end of container -->
     </div>
