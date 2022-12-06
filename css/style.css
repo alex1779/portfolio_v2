@@ -956,6 +956,7 @@ ul {
   left: 0%;
   top: 85.600739%;
   background: transparent;
+  display: flex;
 }
 
 #contact-form-data-div {
@@ -1036,6 +1037,12 @@ ul {
   top: 98.331194%;
   border-radius: 1vw;
   background: #0d151e;
+}
+
+#survey-form {
+  height: auto;
+  width: 87.2%;
+  display: flex;
 }
 
 #survey-form-name-input {
