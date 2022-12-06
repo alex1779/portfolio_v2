@@ -28,7 +28,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: Add a contact form and finish the mobile version.] <a name="Portfolio: Add a contact form and finish the mobile version."></a>
+# 📖 [Portfolio: desktop version.] <a name="Portfolio: desktop version."></a>
 
 **[portfolio_v2]** This is my portfolio website project.
 
