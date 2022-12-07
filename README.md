@@ -18,9 +18,17 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -28,7 +36,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: Add a contact form and finish the mobile version.] <a name="Portfolio: Add a contact form and finish the mobile version."></a>
+# 📖 [Portfolio: desktop version.] <a name="Portfolio: desktop version."></a>
 
 **[portfolio_v2]** This is my portfolio website project.
 
@@ -38,7 +46,25 @@
 
 - HTML, CSS, GIT
 
+<!-- Features -->
 
+### Key Features <a name="key-features"></a>
+
+
+- **[Works Pages]**
+- **[About Myself Page]**
+- **[Contact Form]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [Live Demo Link](https://github.com/alex1779/portfolio_v2)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -46,6 +72,12 @@
 
 
 To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+Install Git
 
 
 ### Setup
@@ -58,12 +90,31 @@ Clone this repository to your desired folder:
   
 ```
 
+### Install
 
+No installation needed.
+
+
+### Usage
+
+No need to execute any command. Open the index.html file in the web browser.
+
+
+### Run tests
+
+No need to execute any test.
+
+
+### Deployment
+
+You can deploy this project using:
+
+No deploy needed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+<!-- AUTHOR -->
 
 ## 👥 Author <a name="author"></a>
 
@@ -78,6 +129,16 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[Deploy with Github pages]**
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -113,6 +174,6 @@ I would like to thank to Microverse
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
