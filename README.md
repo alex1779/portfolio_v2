@@ -50,7 +50,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[Works Pages]**
 - **[About Myself Page]**
@@ -93,22 +92,17 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
-
 No installation needed.
 
-### Usage
 
-To run the project, execute the following command:
+### Usage
 
 No need to execute any command. Open the index.html file in the web browser.
 
 
 ### Run tests
 
-To run tests, run the following command:
-
-No need to execute any command any test.
+No need to execute any test.
 
 
 ### Deployment
