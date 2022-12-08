@@ -134,6 +134,10 @@ ul {
   color: #6070ff;
 }
 
+#div-logo:hover {
+  transform: scale(1.12);
+}
+
 #headline {
   width: 100%;
   aspect-ratio: 375 / 625;
@@ -403,6 +407,13 @@ ul {
   background: url("../images/Snapshoot Portfolio4.png");
   background-size: cover;
   background-position: center;
+}
+
+#snapshot-portfolio-1:hover,
+#snapshot-portfolio-2:hover,
+#snapshot-portfolio-3:hover,
+#snapshot-portfolio-4:hover {
+  transform: scale(1.12);
 }
 
 #block-apart1 {

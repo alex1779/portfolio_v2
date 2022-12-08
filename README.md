@@ -36,7 +36,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: desktop version.] <a name="Portfolio: desktop version."></a>
+# 📖 [Portfolio: Animation and Transitions] <a name="Portfolio: Animation and Transitions"></a>
 
 **[portfolio_v2]** This is my portfolio website project.
 
