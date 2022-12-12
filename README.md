@@ -62,7 +62,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://github.com/alex1779/portfolio_v2)
+- [Live Deploy Page Link](https://alex1779.github.io/portfolio_v2/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
