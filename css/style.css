@@ -2082,6 +2082,7 @@ ul {
   #block-apart-action-button:hover {
     background: #6070ff;
     color: #fff;
+    border: 0.2vw solid #fff;
   }
 
   #block-apart-action-button:active {
@@ -2168,7 +2169,6 @@ ul {
     line-height: 1.65vw;
     text-align: left;
     color: #344563;
-    color: black;
     margin: 0;
   }
 
