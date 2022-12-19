@@ -253,16 +253,6 @@ function hamburgClick() {
   menu.appendChild(navbar);
 }
 
-window.onresize = function () {
-  const container = document.querySelector('#container');
-  if (window.screen.width < 1000) {
-    container.style['aspect-ratio'] = '375 / 5410';
-  } else {
-    container.style['aspect-ratio'] = '1440 / 5125';
-  }
-  restoreView2();
-};
-
 const menuhamb = document.querySelector('#icon-button-button');
 menuhamb.onclick = function () { hamburgClick(); };
 document.querySelector('#ico').onclick = function () { initialExec(); };
