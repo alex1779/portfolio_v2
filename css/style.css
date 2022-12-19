@@ -1157,6 +1157,7 @@ ul {
   left: 0;
   mix-blend-mode: multiply;
   position: fixed;
+  backdrop-filter: blur(10px);
 }
 
 .mobile-menu-navbar {
