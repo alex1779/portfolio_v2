@@ -222,15 +222,8 @@ function contactClick() {
   document.querySelector('#contact-form-data-h1').scrollIntoView();
 }
 
-function shutdownBackground() {
-  document.querySelector('#icon-button-button').style.display = 'none';
-  document.querySelector('#div-logo').style.display = 'none';
-  document.querySelector('#headline').style.display = 'none';
-}
-
 function hamburgClick() {
   const container = document.querySelector('#container');
-  //shutdownBackground();
   const menu = document.createElement('div');
   menu.id = 'mobile-menu';
   menu.setAttribute('class', 'mobile-menu');
