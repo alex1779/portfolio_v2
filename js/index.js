@@ -230,7 +230,7 @@ function shutdownBackground() {
 
 function hamburgClick() {
   const container = document.querySelector('#container');
-  shutdownBackground();
+  //shutdownBackground();
   const menu = document.createElement('div');
   menu.id = 'mobile-menu';
   menu.setAttribute('class', 'mobile-menu');
