@@ -1054,7 +1054,7 @@ ul {
   width: 37.333333%;
   aspect-ratio: 140 / 48;
   left: 6.4%;
-  top: 88.061617%;
+  top: 90%;
   background: white;
   border-radius: 2vw;
   font-weight: 500;
@@ -1142,6 +1142,20 @@ ul {
   color: #172b4d;
   padding-left: 4vw;
   border: none;
+}
+
+#message-alert {
+  position: absolute;
+  width: 87.2%;
+  aspect-ratio: 327 / 102;
+  left: 6.4%;
+  top: 85%;
+  font-weight: 400;
+  font-size: 2.9vw;
+  line-height: 7.5vw;
+  color: #fff;
+  text-align: center;
+  margin: auto;
 }
 
 ::placeholder {
@@ -2468,7 +2482,7 @@ ul {
     width: 32%;
     aspect-ratio: 140 / 48;
     left: 34%;
-    top: 94%;
+    top: 100%;
     background: white;
     border-radius: 0.7vw;
     font-weight: 500;
@@ -2478,6 +2492,20 @@ ul {
     text-align: center;
     margin: auto;
     border: none;
+  }
+
+  #message-alert {
+    position: absolute;
+    width: 100%;
+    aspect-ratio: 447 / 48;
+    left: 0%;
+    top: 80%;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 7.5vw;
+    color: #fff;
+    text-align: center;
+    margin: auto;
   }
 
   #contact-form-data-button:enabled {
