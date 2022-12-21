@@ -116,7 +116,7 @@ No deploy needed.
 
 <!-- AUTHOR -->
 
-## 👥 Author <a name="author"></a>
+## 👥 Authors <a name="authors"></a>
 
 
 
