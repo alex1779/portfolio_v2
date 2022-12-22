@@ -1138,7 +1138,7 @@ ul {
   border-radius: 2vw;
   font-weight: 400;
   font-size: 4vw;
-  line-height: 7.5vw;
+  line-height: 5vw;
   color: #172b4d;
   padding-left: 4vw;
   border: none;
@@ -2585,7 +2585,7 @@ ul {
     border-radius: inherit;
     font-weight: 400;
     font-size: 0.97vw;
-    line-height: 0.5vw;
+    line-height: 1.2vw;
     color: #172b4d;
     padding: 1.5vw 3vw 1vw 1vw;
     border: none;
