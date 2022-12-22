@@ -201,6 +201,18 @@ function eraseAlert() {
   message.innerHTML = '';
 }
 
+function changeInput() {
+  const inputName = document.getElementById('survey-form-name-input');
+  const inputEmail = document.getElementById('survey-form-email-input');
+  const inputMessage = document.getElementById('survey-form-message-input');
+  const dataStorage = {
+    name: inputName.value,
+    email: inputEmail.value,
+    message: inputMessage.value,
+  };
+  localStorage.setItem('contactFormInput', JSON.stringify(dataStorage));
+}
+
 function initialExec() {
   const worksSection = document.getElementById('works-section');
   worksSection.innerHTML += bigString;
@@ -217,6 +229,10 @@ function initialExec() {
   inputEmail.addEventListener('focus', eraseAlert);
   const inputMessage = document.getElementById('survey-form-message-input');
   inputMessage.addEventListener('focus', eraseAlert);
+
+  inputName.addEventListener('input', changeInput);
+  inputEmail.addEventListener('input', changeInput);
+  inputMessage.addEventListener('input', changeInput);
 
   const message = document.getElementById('message-alert');
   message.innerHTML = '';
@@ -276,6 +292,18 @@ function hamburgClick() {
   navbar.appendChild(buttonContact);
   menu.appendChild(navbar);
 }
+
+window.onload = () => {
+  initialExec();
+
+  let savedFormData = localStorage.getItem('contactFormInput');
+  savedFormData = JSON.parse(savedFormData);
+  if (savedFormData) {
+    document.getElementById('survey-form-name-input').value = savedFormData.name;
+    document.getElementById('survey-form-email-input').value = savedFormData.email;
+    document.getElementById('survey-form-message-input').value = savedFormData.message;
+  }
+};
 
 const menuhamb = document.querySelector('#icon-button-button');
 menuhamb.onclick = function () { hamburgClick(); };
