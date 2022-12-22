@@ -196,6 +196,11 @@ function work4Click() {
 
 const bigString = '<div id="align-section"> <div id="works-section-div1" class="works-section-class"> <div id="snapshot-portfolio-1" class="snapshot-portfolio-class"></div> <div id="block-apart1"> <div id="block-apart-primary-text-1"> <div id="block-apart-primary-text-1-project-title"> <h2 id="block-apart-primary-text-1-project-title-text-1" class="block-apart-primary-text"></h2> </div> <div id="works-section-1-frame-2"> <div id="client"><p id="works-section-1-client-text" class="style-1-font"></p></div> <div id="counter"></div> <div id="role"><p id="works-section-1-role-text" class="style-1-font"></p></div> <div id="counter"></div> <div id="year"><p id="works-section-1-year-text" class="style-1-font"></p></div> </div> </div> <div id="works-section-1-block-apart-primary-text-2"> <p id="works-section-1-block-apart-primary-text-2-p"></p> </div> <div id="works-section-1-block-apart-tags"> <ul id="block-apart-tags-li"> <li id="block-apart-tags-item-1" class="block-apart-tags"><a class="block-apart-tags-item">html</a></li> <li id="block-apart-tags-item-2" class="block-apart-tags"><a class="block-apart-tags-item">css</a></li> <li id="block-apart-tags-item-3" class="block-apart-tags"><a class="block-apart-tags-item">javaScript</a></li> </ul> </div> <div id="works-section-1-block-apart-action"><button id="block-apart-action-button" type="button">See Project</button></div> </div> </div>  <div id="works-section-div2" class="works-section-class"> <div id="snapshot-portfolio-2" class="snapshot-portfolio-class"></div> <div id="block-apart2"> <div id="block-apart-primary-text-1"> <div id="block-apart-primary-text-1-project-title-2"> <h2 id="block-apart-primary-text-1-project-title-text-2" class="block-apart-primary-text"></h2> </div> <div id="works-section-2-frame-2"> <div id="client"><p id="works-section-2-client-text" class="style-1-font"></p></div> <div id="counter"></div> <div id="role"><p id="works-section-2-role-text" class="style-1-font"></p></div> <div id="counter"></div> <div id="year-label"><p id="works-section-2-year-text" class="style-1-font"></p></div> </div> </div> <div id="works-section-2-block-apart-primary-text-2"> <p id="works-section-2-block-apart-primary-text-2-p"></p> </div> <div id="works-section-2-block-apart-tags"> <ul id="block-apart-tags-li"> <li id="block-apart-tags-item-1" class="block-apart-tags"><a class="block-apart-tags-item">html</a></li> <li id="block-apart-tags-item-aux" class="block-apart-tags-aux"><a class="block-apart-tags-item-aux"></a></li> <li id="block-apart-tags-item-2" class="block-apart-tags"><a class="block-apart-tags-item">css</a></li> <li id="block-apart-tags-item-3" class="block-apart-tags"><a class="block-apart-tags-item">javaScript</a></li> </ul> </div> <div id="works-section-2-block-apart-action"><button id="block-apart-action-button" type="button">See Project</button></div> </div> </div>  <div id="works-section-div3" class="works-section-class"> <div id="snapshot-portfolio-3" class="snapshot-portfolio-class"></div> <div id="block-apart1"> <div id="block-apart-primary-text-1"> <div id="block-apart-primary-text-1-project-title-3"> <h2 id="block-apart-primary-text-1-project-title-text-3" class="block-apart-primary-text"></h2> </div> <div id="works-section-3-frame-2"> <div id="client"><p id="works-section-3-client-text" class="style-1-font"></p></div> <div id="counter"></div> <div id="role"><p id="works-section-3-role-text" class="style-1-font"></p></div> <div id="counter"></div> <div id="year"><p id="works-section-3-year-text" class="style-1-font"></p></div> </div> </div> <div id="works-section-3-block-apart-primary-text-2"> <p id="works-section-3-block-apart-primary-text-2-p"></p> </div> <div id="works-section-3-block-apart-tags"> <ul id="block-apart-tags-li"> <li id="block-apart-tags-item-1" class="block-apart-tags"><a class="block-apart-tags-item">html</a></li> <li id="block-apart-tags-item-aux" class="block-apart-tags-aux"><a class="block-apart-tags-item-aux"></a></li> <li id="block-apart-tags-item-2" class="block-apart-tags"><a class="block-apart-tags-item">css</a></li> <li id="block-apart-tags-item-3" class="block-apart-tags"><a class="block-apart-tags-item">javaScript</a></li> </ul> </div> <div id="works-section-3-block-apart-action"><button id="block-apart-action-button" type="button">See Project</button></div> </div> </div>  <div id="works-section-div4" class="works-section-class"> <div id="snapshot-portfolio-4" class="snapshot-portfolio-class"></div> <div id="block-apart2" class="block-apart-class"> <div id="block-apart-primary-text-1"> <div id="block-apart-primary-text-1-project-title-4"> <h2 id="block-apart-primary-text-1-project-title-text-4" class="block-apart-primary-text"></h2> </div> <div id="works-section-4-frame-2"> <div id="client"><p id="works-section-4-client-text" class="style-1-font"></p></div> <div id="counter"></div> <div id="role"><p id="works-section-4-role-text" class="style-1-font"></p></div> <div id="counter"></div> <div id="year"><p id="works-section-4-year-text" class="style-1-font"></p></div> </div> </div> <div id="works-section-4-block-apart-primary-text-2"> <p id="works-section-4-block-apart-primary-text-2-p"></p> </div> <div id="works-section-4-block-apart-tags"> <ul id="block-apart-tags-li"> <li id="block-apart-tags-item-1" class="block-apart-tags"><a class="block-apart-tags-item">html</a></li> <li id="block-apart-tags-item-aux" class="block-apart-tags-aux"><a class="block-apart-tags-item-aux"></a></li> <li id="block-apart-tags-item-2" class="block-apart-tags"><a class="block-apart-tags-item">css</a></li> <li id="block-apart-tags-item-3" class="block-apart-tags"><a class="block-apart-tags-item">javaScript</a></li> </ul> </div> <div id="works-section-4-block-apart-action"><button id="block-apart-action-button" type="button">See Project</button></div> </div> </div> </div> </section>';
 
+function eraseAlert() {
+  const message = document.getElementById('message-alert');
+  message.innerHTML = '';
+}
+
 function initialExec() {
   const worksSection = document.getElementById('works-section');
   worksSection.innerHTML += bigString;
@@ -205,6 +210,25 @@ function initialExec() {
   workSection1button[1].addEventListener('click', work2Click);
   workSection1button[2].addEventListener('click', work3Click);
   workSection1button[3].addEventListener('click', work4Click);
+
+  const inputName = document.getElementById('survey-form-name-input');
+  inputName.addEventListener('focus', eraseAlert);
+  const inputEmail = document.getElementById('survey-form-email-input');
+  inputEmail.addEventListener('focus', eraseAlert);
+  const inputMessage = document.getElementById('survey-form-message-input');
+  inputMessage.addEventListener('focus', eraseAlert);
+
+  const message = document.getElementById('message-alert');
+  message.innerHTML = '';
+  document.getElementById('survey-form').addEventListener('submit', (event) => {
+    const cont = document.getElementById('survey-form-email-input').value;
+    if (cont.length > 0) {
+      if (cont !== cont.toLowerCase()) {
+        event.preventDefault();
+        message.innerHTML = 'The content of the email field has to be in lower case!!';
+      }
+    }
+  });
 }
 
 function portfolioClick() {
